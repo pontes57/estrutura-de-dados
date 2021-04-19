@@ -1,0 +1,28 @@
+1)pertence: O(n);
+ insere:O(n);
+ numelementos:O(1);
+ +:O(n²)
+ *:O(n²)
+ -:O(n²)
+
+ 2)nao,pois o primeiro laço ira executar o mesmo numero operaçoẽs (n) nao importa a ordem e o segundo laço ira executar no melhor caso (n²+n)/2 operaçoẽs e n² operaçoẽs no pior caso,ou seja o algoritmo é O(n²) sempre.
+
+ 3)10:0,003segundos
+   100:0,003segundos
+   1000:0,009segundos
+   5000:0,083segundos
+   10000:0,324segundos
+   20000:1,278segundos
+   40000:5,110segundos
+   percebemos que para numeros pequenos o tempo de busca é pequeno nao importa se a uma grande diferença entre os numeros porem para numeros grandes pequenas diferenças aumentam o tempo de execução em muitas vezes.
+
+4)10:0,003segundos
+  100:0,003segundos
+  1000:0,013segundos
+  5000:0,147segundos
+  10000:0,543segundos
+  20000:2,130segundos
+  40000:8,448segundos
+  sim ouve uma diferença de tempoe na forma que ele cresce para numeros maiores,isso ocorre porque a função pertence no p31.cpp tera a complexidade de (n+1)/2 ja no arquivo p32.cpp ira executar a n,isso ocorre porque no primeiro arquivo como os conjuntos sao iguais a funçao ira terminar antes de percorrer todo o vetor o que nao ocorre no segundo arquivo.
+
+5)Uma grande diferença de tempo que apesar de ainda crescer de uma forma exponencial para numeros grandes é uma razao menor que a anterior.
